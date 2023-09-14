@@ -7,7 +7,7 @@ const contentful = require('contentful')
 const client = contentful.createClient({
   space: 'rw54yt8637jp',
   environment: 'master', // defaults to 'master' if not set
-  accessToken: 'Vwa6NNvCrV2zh12CpGjCzIY5OXx69JsRHKiF1o57HGY'
+  accessToken: 'Vwa6NNvCrV2zh12CpGjCzIY5OXx69JsRHKiF1o57HGY' // this token is not sensitive information, all data returned is publicly available
 })
 
 const theme = createTheme({
